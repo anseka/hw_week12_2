@@ -1,0 +1,71 @@
+
+body {
+	margin: 3%;
+}
+
+
+.container{
+	display: grid;
+	justify-items: stretch;
+	grid-template-columns: 1fr 3fr;
+	gap: 5%;
+}
+
+
+button {
+	border-radius: 3px;
+	background-color: blue;
+	color: aliceblue;
+}
+button:hover 
+{background-color: lightblue;}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	justify-items: center;
+}
+
+.input-item {
+	display: grid;
+	justify-items: stretch;
+	grid-template-columns: 1fr;
+	gap: 10%;
+}
+
+span {
+	font-weight: bolder;
+}
+
+textarea {
+	min-height: 10vh;
+	min-width: 25vw;
+	max-height: 25vh;
+	max-width: 50vw;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+li {
+	display: grid;
+	padding: 3%;
+	gap: 5%;
+}
+
+p {
+	font-style: italic;
+	font-size: x-large;
+	color: blue;
+}
+
+h3{
+	font-size: large;
+	color:blueviolet;
+}
+
+

@@ -80,7 +80,7 @@ function checkSpam(str) {
 
 function defaultAvatar() {
 	let randomNumber = Math.floor(Math.random()*6) + 1;
-	let adress = `https://anseka.github.io/hw_week12/2/assets/avatar${randomNumber}.png`;
+	let adress = `https://anseka.github.io/hw_week12_2/assets/avatar${randomNumber}.png`;
 	return adress;
 }
 

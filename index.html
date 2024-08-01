@@ -13,22 +13,39 @@
     <div class="container">
       <div class="input-container">
         <h2>Оставьте ваш комментарий</h2>
-        <div class="input-item">
-          <label for="name">Введите ваше <span>имя:</span></label>
-          <input type="text" name="form" id="name" />
+        <div class="input-item" id="inputitem">
+          <div id="login">
+            <label for="login">Показывать ваше имя?</label>
+            <div>
+              <label for="yes">Yes</label>
+              <input type="radio" name="form" id="yes" checked />
+            </div>
+            <div>
+              <label for="yes">No</label>
+              <input type="radio" name="form" id="no" />
+            </div>
+          </div>
+          <div class="nameno">
+            <label for="name">Введите ваше <span>имя:</span></label>
+            <input type="text" name="form" id="name" />
+          </div>
           <label for="img">Введите ссылку <span>вашего аватара:</span></label>
           <!-- https://99px.ru/sstorage/1/2020/04/image_12304200032305279284.jpg -->
           <input type="url" name="form" id="img" />
           <label for="textcoment">Оставьте комментарий:</label>
           <!-- <input type="text" name="form" id="textcoment" /> -->
-          <textarea class="input-textarea" id="textcoment"></textarea>
+          <textarea
+            class="input-textarea"
+            id="textcoment"
+            required="required"
+          ></textarea>
           <button>Отправить</button>
+          <h4 class="error"></h4>
         </div>
       </div>
       <div class="chat">
         <h2>Чат</h2>
         <ul id="list"></ul>
-        <hr />
       </div>
     </div>
     <img src="" alt="" />

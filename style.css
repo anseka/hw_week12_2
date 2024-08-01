@@ -53,6 +53,8 @@ ul {
 
 li {
 	display: grid;
+	grid-template-columns: 1fr 1fr 4fr;
+	align-items: center;
 	padding: 3%;
 	gap: 5%;
 }
@@ -69,3 +71,27 @@ h3{
 }
 
 
+#login {
+	display: flex;
+	justify-content: space-evenly;	
+}
+
+.nameno {
+	display: flex;
+	flex-direction: column;	
+	justify-items: center;
+}
+
+.hidden {
+	display: none;
+}
+
+
+hr {
+	color: blueviolet;
+	width: 100%;
+}
+
+.error {
+	color: red;
+}
